@@ -10,7 +10,7 @@ edition = "2018"
 
 [dependencies]
 # "dev-build" branch just depends on rust-bitcoin master branch.
-bitcoincore-rpc = { git = "https://github.com/tcharding/rust-bitcoincore-rpc", branch = "dev-build" }
+bitcoincore-rpc = { git = "https://github.com/sanket1729/rust-bitcoincore-rpc", branch = "dev-build" }
 tempfile = "3.1"
 log = "0.4"
 home = "0.5.3"  # use same ver in build-dep
@@ -24,7 +24,7 @@ bitcoin_hashes = "0.10"
 tar = "0.4"
 
 # allows to keep MSRV 1.41.1
-ureq = "1.0"  
+ureq = "1.0"
 filetime = "=0.2.15"
 flate2 = "=1.0.22"
 
